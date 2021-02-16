@@ -133,7 +133,7 @@ line-height: 30px;
 h1 {
     position: relative;
     display: flex;
-    padding-left: 45%;
+    padding-left: 43%;
 top: 140px;
 font-family: "Mulish";
 font-style: normal;
@@ -171,7 +171,7 @@ bottom: 200px;
 
 h3 {
     position: relative;
-    display: flex;
+    display: block;
     flex-wrap: wrap;
     float: left;
     padding-right: 50%;
@@ -179,11 +179,11 @@ h3 {
 height: 90px;
 top: 160px;
     font-family:"Mulish";
-font-style: normal;
-font-weight: normal;
+font-style:normal;
+font-weight:bolder;
 }
 
-.user-responses {
+.user-li {
     position: relative;
     display: flex;
     flex-wrap: wrap;
@@ -324,6 +324,156 @@ width: 800px;
 height: 600px;
 top: 150px;
 border-radius: 45px;
+}
+
+.lowfi-1 {
+    position:relative;
+    float: right;
+    display: flex;
+    margin:-9%;
+    padding-right: 10%;
+    padding-top: 5%;
+    top: 50px;
+    width: 330px;
+    height: 636px;
+    right: 100px;
+}
+
+
+
+h3 {
+    position: relative;
+    flex-wrap: wrap;
+    margin: auto;
+    height: 90px;
+    font-family:"Mulish";
+    font-style:normal;
+    font-weight:bolder;
+}
+
+.lowfi-li {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    top: 120px;
+    padding-right: 20%;
+    padding-left: 16%;
+    height: 90px;
+    font-family:"Mulish";
+    font-style: normal;
+}
+
+.lowfi-2 {
+    width: 330px;
+    height: 636px;
+}
+
+.lowfi-3 {
+    width: 330px;
+    height: 636px;
+}
+
+.flex-container {
+    padding-left: 80px;
+    justify-content: space-between;
+}
+
+
+p5 {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    float: right;
+    padding-right: 30px;
+    padding-left: 60%;
+    top: 300px;
+    font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+line-height: 30px;
+}
+
+.f-title {
+    float: right;
+    padding-right: 10%;
+}
+
+.hifi-p {
+    font-family: "Mulish";
+    font-style: italic;
+    padding-right: 5%;
+    top: 130px;
+    right: 100px;
+}
+
+.hifi-p2 {
+    font-family: "Mulish";
+    font-style: normal;
+    padding-right: 5%;
+    top: -290px;
+    right: 100px;
+    font-size: 18px;
+}
+
+.hifi-splash {
+    position:relative;
+    float: left;
+    display: flex;
+    margin:-8%;
+    padding-left: 25%;
+    top: 50px;
+    width: 370px;
+    height: 636px;
+    right: 100px;
+}
+
+.container {
+    position: relative;
+    padding-left: 9%;
+    margin-top: 58%;
+}
+
+h4 {
+    display:flex;
+    margin: 11%;
+    font-family:"Mulish";
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 60px;
+
+color: #000000;
+}
+
+p6 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: -10%;
+    font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 38px;
+}
+
+p7 {
+    display: flex;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-family: "Mulish";
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 38px;
+}
+
+.end {
+    padding-top: 5%;
+    margin: auto;
+    padding-left: 35%;
+    text-decoration: none;
 }
 
 
