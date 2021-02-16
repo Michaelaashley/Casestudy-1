@@ -470,10 +470,23 @@ line-height: 38px;
 }
 
 .end {
-    padding-top: 5%;
+    padding-top: 1%;
     margin: auto;
     padding-left: 35%;
     text-decoration: none;
+}
+
+.scroll-btn {
+    position: relative;
+    left: 45%;
+    height: 70px;
+    margin-bottom: 20%;
+}
+
+.circle-img {
+    position: relative;
+    left: 12%;
+    margin-top: 30%;
 }
 
 
