@@ -162,12 +162,28 @@ font-weight: normal;
 
 .travel-img {
     position:relative;
+    display: flex;
     float: right;
     right: 200px;
     width: 400px;
 height: 390px;
 bottom: 200px;
+z-index: 1;
 }
+
+.photo-bg {
+position: relative;
+float: right;
+left: 20%;
+right: 50%;
+margin-bottom: 20%;
+margin-top: -10%;
+width: 400px;
+height: 390px;
+background: rgba(255, 222, 89, 0.4);
+border-radius: 40px;
+}
+
 
 h3 {
     position: relative;
@@ -198,17 +214,16 @@ font-weight: normal;
 }
 
 .break {
-    position: relative;
-    display: flex;
-    padding-left: 30%;
-height: 61px;
-top: 270px;
-right: 150px;
+    position:relative;
+    display:flex;
+    float:left;
     font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
-line-height: 50px;
+margin-bottom: 70px;
+margin-top: -25%;
 }
+
 
 p2 {
     position: relative;
@@ -227,10 +242,9 @@ line-height: 30px;
 .diagram {
     position: relative;
     display: flex;
-    padding-left: 30%;
-height: 61px;
-top: 420px;
-right: 210px;
+    flex-wrap:wrap;
+    float: left;
+    margin-top: -12%;
     font-family: "Mulish";
 font-style: normal;
 font-weight: normal;
@@ -284,6 +298,19 @@ width: 612px;
 height: 342px;
 top: 200px;
 border-radius: 32px;
+z-index: 1;
+}
+
+.photo-bg2 {
+    position: relative;
+float: left;
+margin-bottom: -20%;
+margin-top: -12%;
+left: 10%;
+width: 612px;
+height: 342px;
+background: rgba(255, 222, 89, 0.4);
+border-radius: 40px;
 }
 
 p4 {
