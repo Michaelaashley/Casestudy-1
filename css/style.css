@@ -577,20 +577,17 @@ line-height: 38px;
     text-decoration: none;
 }
 
-.smoothScroll {
-    position: relative;
-    left: 45%;
-    height: 70px;
-    margin-bottom: 20%;
-}
+
 
 
 .circle-img {
     position: relative;
-    left: 12%;
+    left: 18%;
     margin-top: 30%;
-    bottom: -10%;
+    bottom: -30px;
+    overflow-x: hidden;
 }
+
 
 
 
