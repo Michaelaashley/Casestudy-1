@@ -524,6 +524,20 @@ line-height: 30px;
     margin-top: 58%;
 }
 
+.link {
+    font-family: "Mulish";
+    display: flex;
+    padding-left: 40%;
+    padding-top: 5%;
+    font-size: 30px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.link:hover {
+    color:#64BFBA;
+}
+
 h4 {
     display:flex;
     margin: 11%;
